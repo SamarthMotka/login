@@ -1,0 +1,117 @@
+*{
+    color: #b4a5a5;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+    background-color: #3c415c;
+     
+}
+#main{
+    width: 50%;
+    height: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+    display:flex ;
+    flex-direction:column;
+    margin: auto;
+    background-color: #151515;
+    
+}
+header{
+    margin: auto;
+    
+}
+#cred{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+#signin{
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+.link{
+    color: #b4a5a5;
+    text-decoration: none;
+
+}
+#signin button{
+    /* display: flex;
+    flex-direction: row; */
+    /* border: none; */
+    cursor: pointer;
+}
+
+#sigin img{
+    object-fit: contain;
+}
+.size{
+    width: 50%;
+    height: 30%;
+}
+
+#userid,#password{
+    border: 1px solid #b4a5a5 ;
+    border-radius: 5px;
+    margin: 3%;
+    margin-left: 0px;
+    padding: 5%;
+    font-size: 1.5em;
+    width: 280px;
+}
+.label{
+    font-size: 1.75rem;
+}
+a:hover{
+color:goldenrod;
+}
+.btncred{
+    padding: 5%;
+    border-radius: 5px;
+    margin: 1%;
+    width: 109%;
+    font-size: 1.5rem;
+}
+.btncred:hover{
+    background-color: #b4a5a5 ;
+    color: #151515;
+}
+#form2{
+    margin-left: 27%;
+    margin-top: 5%;
+}
+.signin2{
+    padding: 3%;
+    border-radius: 60px;
+    margin: 1%;
+    width: 68%;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+}
+button img{
+    width: 20%;
+    height: 20%;
+    margin: 1%;
+}
+.para{
+    margin: auto;
+    font-weight: bold;
+    display: inline;
+}
+#bt1:hover{
+    background-color: rgb(55, 122, 55);
+}
+
+#bt2:hover{
+    background-color: rgb(77, 77, 236) ;
+}
+#bt3:hover{
+    background-color:  #2a0e46;
+}
+button,input{
+    background-color: #151515;
+}
